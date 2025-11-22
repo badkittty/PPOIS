@@ -1,4 +1,3 @@
-// mn.cpp
 #include "mn.h"
 #include <stdexcept>
 #include <cctype>
@@ -377,7 +376,7 @@ MN MN::powerSet() const {
     std::vector<Element> current_set;
     MN result = powerSetRecursive(current_set, 0);
 
-    // Добавляем пустое множество (оно не добавляется в рекурсивной функции)
+    // Добавляем пустое множество 
     MN empty_set;
     result.addElement(std::make_shared<MN>(empty_set));
 

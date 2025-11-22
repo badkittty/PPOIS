@@ -85,7 +85,7 @@ std::string& D::operator[](const std::string& english) {
     return node->russian;
 }
 
-// Существующие приватные методы остаются без изменений
+// Существующие приватные методы 
 std::shared_ptr<D::Node> D::insert(std::shared_ptr<Node> node, const std::string& english, const std::string& russian) {
     if (!node) {
         wordCount++;

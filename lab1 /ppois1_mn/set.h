@@ -1,4 +1,4 @@
-// mn.h
+
 #ifndef MN_H
 #define MN_H
 
